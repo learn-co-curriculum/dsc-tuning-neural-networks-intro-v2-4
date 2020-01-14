@@ -1,22 +1,17 @@
 
-# Tuning Neural Networks - Intro
+# Tuning Neural Networks - Introduction
 
 ## Introduction
 
 
-Now that you have a general sense of the architecture of neural networks and some of their underlying concepts, its time to further investigate how to properly tune a model for optimal performance. Specifically, you'll take a look at two main camps of techniques: regularization and normalization. 
-
-## Objectives
-You will be able to:
-* Understand and explain what is covered in this section
-* Understand and explain why the section will help you to become a data scientist
+Now that you have a general sense of the architecture of neural networks and some of their underlying concepts, its time to further investigate how to properly tune a model for optimal performance. Specifically, you'll take a look at two main techniques: regularization and normalization. 
 
 ## Regularization
 
-You've seen regularization before in many other models including linear regression. For example, recall the L1 and L2 penalties which modify ordinary linear regression. These updated loss functions can help tune models so they are not overfit to the training data. For neural networks, you'll use a surprisingly similar process in order to achieve well train models that are neither overfit nor underfit.
+You've seen regularization before in many other models including linear regression. For example, recall the L1 and L2 penalties which modify ordinary linear regression. These updated loss functions can help tune models so they do not overfit to the training data. For neural networks, you'll use a surprisingly similar process in order to achieve well trained models that are neither overfit nor underfit.
 
 
-### Normalization and Tuning Neural Networks
+## Normalization and Tuning Neural Networks
 
 Another modeling problem occurs when one gets trapped into a local minimum when searching for an optimal solution using an iterative approach such as gradient descent. One technique for counteracting this scenario is normalizing features. Normalization in deep learning models can drastically decrease computation time, mitigate common issues such as vanishing or exploding gradients, and increase model performance.
 
@@ -26,4 +21,4 @@ Finally, you'll look at alternative optimization algorithms. These are of primar
 
 ## Summary
 
-In this section, you'll extend your deep learning knowledge by learning about regularizing and optimizing your neural network models. 
+In this section, you'll extend your deep learning knowledge by learning about regularization and optimizing your neural network models. 
